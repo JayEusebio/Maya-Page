@@ -377,6 +377,10 @@
   new ResizeObserver(send).observe(document.body);
   setInterval(send, 1000);
 })();
+
+addEventListener('wheel', function(e){
+  parent.postMessage({mayaScroll: e.deltaY}, '*');
+}, {passive: true});
 </script>
 </body>
 </html>
