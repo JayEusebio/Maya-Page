@@ -22,6 +22,8 @@
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;background:var(--bg)}
+html, body { scrollbar-width: none; }
+html::-webkit-scrollbar, body::-webkit-scrollbar { display: none; }
 body{margin:0;background:radial-gradient(70vmax 70vmax at 90% -10%,rgba(18,162,106,.22),transparent 60%),radial-gradient(60vmax 60vmax at -20% 45%,rgba(196,255,61,.07),transparent 60%),radial-gradient(60vmax 60vmax at 110% 85%,rgba(18,162,106,.16),transparent 60%),var(--bg);background-attachment:fixed;color:var(--ink);font:400 16px/1.5 var(--body);overflow-x:hidden;-webkit-font-smoothing:antialiased}
 img{display:block;max-width:100%;height:auto}
 a{color:inherit;text-decoration:none}
