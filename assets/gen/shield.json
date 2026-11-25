@@ -1,0 +1,24 @@
+[
+  {
+    "created_at": "2026-10-21T14:30:32.206133Z",
+    "display_name": "GPT Image 2.5",
+    "id": "f6a558c7-77df-41af-8e75-2cc0297adf8d",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KH0mq5eTNt3Xw1KrinwFYZTiH0/hf_20261021_143032_f6a558c7-77df-41af-8e75-2cc0297adf8d_min.webp",
+    "params": {
+      "aspect_ratio": "1:1",
+      "background": "transparent",
+      "height": 1024,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A rounded security shield badge with a chunky check mark embossed on it, a small ID card leaning behind it. Single isolated 3D object, premium soft-plastic and frosted glass material, studio product render, deep emerald green and bright lime green with small warm gold accents, soft rim light, gentle shadow underneath, three-quarter view, centered with generous empty space around it, transparent background, no text, no letters, no logos.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "1k",
+      "width": 1024
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KH0mq5eTNt3Xw1KrinwFYZTiH0/hf_20261021_143032_f6a558c7-77df-41af-8e75-2cc0297adf8d.png",
+    "status": "completed"
+  }
+]
