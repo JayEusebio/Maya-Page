@@ -13,7 +13,10 @@
 <link rel="preload" as="image" href="assets/web/banner-m2-bg.webp" media="(max-width: 767px)">
 <link rel="preload" as="image" href="assets/web/banner-d-bg.webp" media="(min-width: 768px)">
 <link rel="stylesheet" href="css/style.css">
-<script>document.documentElement.classList.add('js')</script>
+<script>
+  document.documentElement.classList.add('js')
+  if (window.self !== window.top) document.documentElement.classList.add('embedded')
+</script>
 </head>
 <body>
 
