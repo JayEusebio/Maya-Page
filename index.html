@@ -366,5 +366,17 @@
 <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="js/main.js"></script>
+<script>
+(function(){
+  function send(){
+    var h = document.documentElement.scrollHeight;
+    parent.postMessage({mayaHeight: h}, '*');
+  }
+  addEventListener('load', send);
+  addEventListener('resize', send);
+  new ResizeObserver(send).observe(document.body);
+  setInterval(send, 1000);
+})();
+</script>
 </body>
 </html>
